@@ -1,0 +1,199 @@
+.thread-messages {
+	clear: both;
+	display: block;
+	margin: 0 0 40px;
+	overflow: visible;
+	width: 100%;
+}
+
+.thread-info-status {
+	width: 20%;
+	float: right;
+	text-align: right;
+}
+
+.thread-info-infos {
+	width: 70%;
+}
+
+.thread-info {
+	background-color: #F7FAFD;
+	border: 1px solid #D3E2EE;
+	clear: both;
+	color: #666666;
+	font-size: 0.8889em;
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding: 5px 5px 5px 10px;
+	position: relative;
+}
+
+.thread-post {
+	background-color: #eee;
+	border-color: #eee;
+	border-style: solid;
+	border-width: 1px;
+	margin: 0 0 4px;
+	overflow: visible;
+	position: relative;
+}
+
+.thread-post-body {
+	overflow: visible;
+	padding: 6px 6px 6px 0;
+	position: relative;
+}
+
+.thread-post-author {
+	color: #777777;
+	display: block;
+	float: left;
+	padding-bottom: 10px;
+	position: relative;
+	text-align: center;
+	width: 133px;
+	z-index: 2;
+}
+
+.thread-post-author-img {
+	display: block;
+	margin: 0;
+	padding-bottom: 4px;
+	width: 134px;
+	z-index: 3;
+}
+
+.thread-post-author-img-img {
+	margin: 19px 0 2px;
+	overflow: hidden;
+	padding: 3px;
+	background: #FFFFFF none repeat scroll 0 0;
+	border: 1px solid #DADADA;
+}
+
+.thread-post-author-img img {
+	max-width: 70px;
+	max-height: 70px;
+}
+
+.thread-post-author-name,.thread-post-author-account-link {
+	color: #555555;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.thread-post-author-account-link-container {
+	display: block;
+	overflow: hidden;
+	width: 133px;
+}
+
+.thread-post-body-container {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	display: block;
+	overflow: hidden;
+	padding: 5px 12px 7px;
+	z-index: 1;
+	min-height: 125px;
+}
+
+.thread-post-subject-content {
+	clear: none;
+	margin: 0 0 6px;
+	padding: 0 0 5px;
+	border-bottom: 1px #ddd dotted;
+}
+
+.thread-post-subject-id {
+	float: right;
+	text-align: right;
+	margin-left: 50px;
+}
+
+.thread-post-subject-content h3 {
+	color: #777777;
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+	padding: 2px 0 3px;
+	width: auto;
+}
+
+.thread-post pre {
+	background-color: #fff;
+	margin: 10px 0 10px;
+}
+
+/* Locked post */
+.thread-post-locked {
+	background-color: #f8f094;
+	border-color: #f8f094;
+}
+
+.thread-post-locked .thread-post-body-container {
+	background-color: #fff;
+	border-color: #f9e828;
+}
+
+.thread-post-locked .thread-post-subject-content {
+	border-color: #f9e828;
+}
+
+/* Customer post */
+.thread-post-customer {
+	background-color: #D5E3EE;
+	border-color: #D5E5F1;
+}
+
+.thread-post-customer .thread-post-body-container {
+	background-color: #F7FAFD;
+	border-color: #C5D9E8;
+}
+
+.thread-post-customer .thread-post-subject-content {
+	border-color: #C5D9E8;
+}
+
+/* Collapsed */
+.collapsed .thread-post-message,.collapsed .thread-post-author-img {
+	display: none;
+}
+
+.collapsed .thread-post-author-account-link-container {
+	margin-top: 10px;
+}
+
+.collapsed .thread-post-body-container {
+	margin-left: 132px;
+}
+
+.collapsed .thread-post-body-container {
+	min-height: 0;
+	padding-bottom: 0;
+}
+
+.collapsed .thread-post-subject-content {
+	border: none;
+	padding: 0;
+}
+
+.collapsed-completely {
+	height: 6px;
+}
+
+.collapsed-completely .thread-post-body {
+	display: none;
+}
+
+.preview {
+	display: none;
+}
+
+.collapsed .preview {
+	display: inline;
+	overflow: hidden;
+	outline-style: dotted;
+	color: #aaa;
+	margin-left: 10px;
+}

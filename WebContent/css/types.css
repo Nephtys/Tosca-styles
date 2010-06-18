@@ -1,0 +1,58 @@
+span.demand_status {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #fff;
+	font-size: 11px;
+	padding: 0 3px 0;
+	/*position:absolute;*/
+	text-align: center;
+	top: 18px;
+	width: 75px;
+	display: block;
+	font-weight: bold;
+}
+
+/* Gris moyen */
+span.demand_status {
+	background-color: #aaa;
+}
+
+/* Rouge */
+span.status_1 {
+	background-color: #DD5522;
+}
+
+/* Orange */
+span.status_2 {
+	background-color: #FF9922;
+}
+
+/* Jaune */
+span.status_3 {
+	background-color: #ffc822;
+}
+
+/* Violet */
+span.status_4 {
+	background-color: #89439e;
+}
+
+/* Bleu */
+span.status_5 {
+	background-color: #533aa5;
+}
+
+/* Vert moyen */
+span.status_6 {
+	background-color: #1baa43;
+}
+
+/* Vert foncé */
+span.status_7 {
+	background-color: #07802a;
+}
+
+/* Gris foncé */
+span.status_8 {
+	background-color: #555;
+}

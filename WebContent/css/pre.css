@@ -1,0 +1,12 @@
+pre {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #F5F5F5;
+	border: 1px solid #CCCCCC;
+	font-family: courier new;
+	padding: 5px 15px 5px 25px;
+	color: #333333;
+	display: block;
+	line-height: 1.2em;
+	overflow: auto;
+}

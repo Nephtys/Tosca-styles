@@ -1,0 +1,38 @@
+h2,h1,h3,h4,h5 {
+	display: block;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+		sans-serif;
+}
+
+body {
+	width: 900px;
+	background-color: #fff;
+	margin: 40px;
+	padding: 40px;
+	line-height: 25px;
+	color: #333;
+	font-size: 13px;
+}
+
+h2 {
+	font-size: 30px;
+	text-decoration: none;
+	width: auto;
+	font-weight: normal;
+	color: #4A5D75;
+	margin-bottom: 20px;
+}
+
+a {
+	font-weight: bold;
+	color: #369;
+	text-decoration: none;
+}
+
+a:link,a:visited {
+	text-decoration: none;
+}
+
+a:hover,a:focus {
+	text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+.big_calendar td {
+	width: 14%;
+	padding: 5px;
+}
+
+.big_calendar .calendar-dates td {
+	text-align: right;
+	border: 1px solid #c2daf5;
+	border-bottom: none;
+	background-color: #ebf3fc;
+	color: #444;
+	padding: 0;
+	padding-right: 5px;
+	font-size: 11px;
+}
+
+.big_calendar .calendar-events td {
+	border: 1px solid #c2daf5;
+	border-top: none;
+}
+
+.big_calendar .calendar-events td.no-day {
+	background-color: #ebf3fc;
+}
+
+.big_calendar tr.calendar-events {
+	height: 60px;
+}
+
+.big_calendar .calendar-labels {
+	color: #666;
+	font-size: 12px;
+}
+
+.big_calendar .calendar-info-nav {
+	width: 20%;
+	float: right;
+	text-align: right;
+}
+
+.big_calendar .calendar-info-infos {
+	width: 70%;
+}
+
+.big_calendar .calendar-info-title {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.big_calendar .calendar-info {
+	background-color: #F7FAFD;
+	border: 1px solid #D3E2EE;
+	clear: both;
+	color: #666666;
+	font-size: 0.8889em;
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding: 5px 5px 5px 10px;
+	position: relative;
+}
