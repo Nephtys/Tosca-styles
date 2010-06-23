@@ -1,0 +1,290 @@
+h2,h1,h3,h4,h5 {
+	display: block;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+		sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+h2 {
+	text-decoration: none;
+	width: auto;
+	font-weight: normal;
+	color: #4A5D75;
+	margin-bottom: 20px;
+	font-size: 1.8em;
+	padding: 10px 0;
+}
+
+body {
+	font-size: 0.85em;
+	background-color: #eee;
+}
+
+span.img_link img {
+	vertical-align:middle;
+	padding-right: 2px;
+}
+
+/* head */
+#header {
+	border-bottom: 1px solid #DDD;
+	background-color: #fff;
+	padding: 10px;
+	height: 77px;
+}
+
+#header-title {
+	padding-left: 10px;
+	padding-top: 12px;
+}
+
+#global-container {
+	margin: 0 auto 20px;
+	min-width: 950px;
+	text-align: left;
+}
+
+#hui-avatar img {
+	max-height: 55px;
+	max-width: 55px;
+	float: left;
+}
+
+#hui-search {
+	padding-top: 10px;
+	display: block;
+}
+
+#hui-links {
+	font-size: 0.8em;
+	margin-left: 60px;
+	position: relative;
+	text-align: right;
+}
+
+#hui-links input {
+	width: 87%;
+	border: 1px solid #666;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#header-user-infos {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	float: right;
+	padding: 10px;
+	background-color: #aaa;
+	min-width: 350px;
+	color: #fff;
+}
+
+#hui-links a {
+	display: inline;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border: 1px solid transparent;
+	padding: 0 3px;
+	margin: 0 2px;
+}
+
+#hui-links a:hover {
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#hui-links a.help-link:hover {
+	background-color: #abc;
+	border-color: #abc;
+}
+
+#hui-links a.img-link {
+	border: none;
+	background: none
+}
+
+#hui-avatar img {
+	border: 3px solid #fff;
+}
+
+/* Content */
+#content {
+	clear: both;
+}
+
+/* main */
+#main {
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	float: left;
+	margin: 9px 0 0 18px;
+	position: relative;
+	width: 70%;
+	background-color: #fff;
+}
+
+#main-navigation {
+	height: 32px;
+	background-color: #eee;
+}
+
+#main-navigation ul {
+	height: 100%;
+}
+
+#main-navigation li {
+	display: block;
+	float: left;
+	position: relative;
+	padding: 0px;
+}
+
+#main-navigation li a {
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	background-color: #aaa;
+	color: #fff;
+	font-weight: bold;
+	border: medium none;
+	display: block;
+	float: left;
+	position: relative;
+	height: 22px;
+	padding: 10px 10px 0;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+#main-navigation li.selected a {
+	background-color: #D5E3EE;
+	color: #666;
+}
+
+#main-navigation li.selected a:hover {
+	background-color: #D5E3EE;
+	color: #666;
+}
+
+#navigation {
+	background-color: #eee;
+}
+
+#sub-navigation {
+	-moz-border-radius-topright: 10px;
+	background-color: #D5E3EE;
+	border-bottom: 1px solid #aecadf;
+	height: 37px;
+}
+
+#sub-navigation ul {
+	background: none;
+	padding: 5px 0 6px;
+}
+
+#main-navigation ul,#sub-navigation ul {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	width: 100%;
+}
+
+#sub-navigation li {
+	display: block;
+	float: left;
+	position: relative;
+	padding: 0px 12px 0px;
+}
+
+#sub-navigation li a {
+	border: medium none;
+	display: block;
+	float: left;
+	position: relative;
+	-moz-border-radius: 4px;
+	padding: 8px 8px 7px;
+}
+
+#main-navigation li a {
+	color: #fff;
+	font-weight: bold;
+}
+
+#sub-navigation li a {
+	color: #555;
+}
+
+#main-navigation li a:hover {
+	background-color: #bbb;	
+}
+
+#sub-navigation li a:hover {
+	background-color: #aecadf;
+}
+
+#main-navigation li:first-child a {
+	-moz-border-radius-topleft: 4px;
+}
+
+#infos, #content-top, #content-main {
+	margin: 20px;
+}
+
+/* sidebar */
+#sidebar {
+	float: right;
+	width: 26%;
+	padding: 10px;
+	text-align:center;
+}
+
+div.box {
+	text-align:left;
+	background-color: #F7FAFD;
+	border:1px solid #D3E2EE;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+div.bc-head {
+	border-bottom: 1px dotted #D3E2EE;
+}
+div.bc-content {
+	margin-top: 5px;
+}
+
+
+span.button {
+	display: block;
+	width: auto;
+	padding: 4px 7px 4px 6px;
+	margin-bottom: 3px;
+}
+
+span.button .button-content {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	padding: 4px 7px 4px 6px;
+}
+
+span.button:hover .button-content {
+	background-color: #D5E3EE;
+}
+
+.new-demand {
+	float:right;
+}
+
