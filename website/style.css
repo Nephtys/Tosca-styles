@@ -1,0 +1,148 @@
+#bannercontent,#navcontent,#headercontent,#maincontent,#footercontent {
+	width: 950px;
+	margin: 0 auto;
+}
+
+#banner,#nav,#header,#main,#footer {
+	clear: both;
+	display: block;
+}
+
+#header,#main,#footer {
+	padding: 15px 0;
+}
+
+#banner,#footer {
+	background-color: #4d4d4d;
+	padding: 10px;
+}
+
+#links ul.linklist {
+	float:right;
+}
+
+ul.linkslist {
+	display: inline;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#nav ul.linkslist li {
+	float: left;
+	margin-right: 15px;
+}
+
+#links ul.linkslist li {
+	float: left;
+	margin-left: 15px;
+}
+
+#links {
+	float: right;
+	color: #fff;
+	font-size: 0.8em;
+	padding: 15px 0;
+}
+
+#links a {
+	color: #9fbcd2;
+}
+
+#nav {
+	background-color: #7296b2;
+	padding: 0;
+	border-bottom: 1px solid #5882a2;
+}
+
+#nav ul {
+	display: block;
+}
+
+#nav ul li a {
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	font-size: 0.8em;
+	color: #eee;
+}
+
+#nav ul li a:hover {
+	background-color: #7fa0b9;
+}
+
+#nav ul li a.selected {
+	background-color: #7fa0b9;
+}
+
+#header {
+	background: #82bff0 url(images/bg_header.png) repeat-x scroll center top;
+	height: 270px;
+	border-bottom: 1px solid #fff;
+}
+
+#headercontent #title {
+	float: right;
+	width: 500px;
+	text-align: right;
+}
+
+#headercontent #title h1 {
+	padding-top: 20px;
+	font-size: 70px;
+	color: #eee;
+}
+
+#headercontent #title h2 {
+	padding-top: 20px;
+	font-size: 30px;
+	color: #4D4D4D;
+}
+
+#header.secondary {
+	height: 80px;
+}
+
+#headercontent #title p {
+	color: #fff;
+	font-size: 17px;
+	margin-top: 15px;
+}
+
+#main {
+	background: #fff url(images/bg_main.png) repeat-x scroll center top;
+	min-height: 200px;
+	text-align: center;
+}
+
+div.box {
+	border: 1px solid #ddd;
+	-moz-border-radius: 10px;
+	background-color: #fff;
+	float: left;
+	padding: 10px;
+	margin: 10px 30px 30px;
+}
+
+
+
+div.box h3 {
+	color: #0E3062;
+	font-family: georgia;
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0 0 15px;
+}
+
+#footer {
+	text-align: right;
+	color: #fff;
+	border-top: 3px solid #333;
+}
+
+#footercontent a {
+	color: #ddd;
+	font-weight: bold;
+	text-decoration: none;
+}
