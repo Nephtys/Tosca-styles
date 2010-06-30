@@ -82,7 +82,7 @@ ul.linkslist {
 	border-bottom: 1px solid #fff;
 }
 
-#headercontent #title {
+#headercontent.indexheadercontent #title {
 	float: right;
 	width: 500px;
 	text-align: right;
@@ -113,6 +113,9 @@ ul.linkslist {
 #main {
 	background: #fff url(images/bg_main.png) repeat-x scroll center top;
 	min-height: 200px;
+}
+
+.indexmaincontent {
 	text-align: center;
 }
 
@@ -145,4 +148,32 @@ div.box h3 {
 	color: #ddd;
 	font-weight: bold;
 	text-decoration: none;
+}
+
+#maincontent h2 {
+	padding: 10px 0 10px;
+	font-size: 25px;
+	color: #5882A2;
+}
+
+#maincontent p {
+	padding: 10px 0 10px;
+}
+
+#maincontent {
+	line-height: 1.2em;
+	min-height: 300px;
+}
+
+#maincontent a {
+	color: #5882A2;
+}
+
+#column {
+	text-align: center;
+	float: right
+}
+
+#column2 {
+	width: 700px;
 }
